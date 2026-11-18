@@ -14,7 +14,7 @@ import type {
   ResultRow,
 } from './types';
 
-const API_BASE = 'http://localhost:8000/api';
+const API_BASE = 'https://aiml-tckl.onrender.com';
 const DashboardPage = lazy(() => import('./DashboardPage').then((module) => ({ default: module.DashboardPage })));
 const AssessmentsPage = lazy(() => import('./AssessmentsPage').then((module) => ({ default: module.AssessmentsPage })));
 const GradingPage = lazy(() => import('./GradingPage').then((module) => ({ default: module.GradingPage })));
